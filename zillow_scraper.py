@@ -1,5 +1,5 @@
 def scrape_zillow_data(address):
-    # Simulated response for demo purposes
+    # Simulated Zillow data for testing
     return {
         "rent_zestimate": 1600,
         "sold_comps": [
