@@ -1,2 +1,2 @@
-# EmpireGPT Underwriter
-This is a clean version ready for Streamlit Cloud deployment.
+# EmpireGPT (Streamlit-Ready)
+This version runs on Streamlit Cloud. No backend dependencies.
