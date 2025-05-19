@@ -1,0 +1,10 @@
+streamlit
+numpy
+numpy-financial
+pandas
+fpdf
+PyYAML
+pdfminer.six
+pymupdf
+altair
+requests
