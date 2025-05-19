@@ -1,0 +1,2 @@
+# Example cron job to run summary_email every Sunday at 9am
+0 9 * * 0 /usr/bin/python3 /path/to/project/scheduler.py >> weekly_summary.log 2>&1

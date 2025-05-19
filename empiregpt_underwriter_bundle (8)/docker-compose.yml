@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  streamlit:
+    build: .
+    container_name: empiregpt_streamlit
+    ports:
+      - "8501:8501"
+    environment:
+      - API_KEY=${API_KEY}
+    command: streamlit run app/main.py
+
+  api:
+    build: .
+    container_name: empiregpt_api
+    ports:
+      - "8000:8000"
+    environment:
+      - API_KEY=${API_KEY}
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000

@@ -1,0 +1,24 @@
+{
+  "address": "123 Main St, TX",
+  "property_type": "SFR",
+  "sqft": 1432,
+  "beds": 3,
+  "baths": 2,
+  "lot_size": 8500,
+  "year_built": 1985,
+  "condition": "Fair",
+  "mortgage_balance": 125000,
+  "occupancy": "Vacant",
+  "estimated_rent": 1650,
+  "taxes": 2400,
+  "insurance": 950,
+  "asking_price": 210000,
+  "permits": [
+    "2019 Roof",
+    "2023 HVAC"
+  ],
+  "liens": [
+    "$3,200 county water",
+    "$400 HOA"
+  ]
+}
