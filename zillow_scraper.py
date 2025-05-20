@@ -1,10 +1,11 @@
+
 def scrape_zillow_data(address):
     return {
         "rent_zestimate": 1650,
         "sold_comps": [
-            {"address": "123 Elm St", "price": 190000, "sqft": 1430, "date": "2024-03"},
-            {"address": "125 Oak St", "price": 198000, "sqft": 1450, "date": "2024-01"},
-            {"address": "127 Pine St", "price": 185000, "sqft": 1400, "date": "2023-12"}
+            {"address": "123 Elm St", "price": 190000, "sqft": 1430},
+            {"address": "125 Oak St", "price": 198000, "sqft": 1450},
+            {"address": "127 Pine St", "price": 185000, "sqft": 1400}
         ],
         "property_details": {
             "beds": 3,

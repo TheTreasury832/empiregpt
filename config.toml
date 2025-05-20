@@ -1,8 +1,10 @@
+
 [server]
 headless = true
+enableCORS = false
 
 [theme]
-base="light"
+base = "auto"
 
 [layout]
 wide = true
