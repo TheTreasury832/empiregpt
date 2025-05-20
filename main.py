@@ -7,7 +7,8 @@ st.set_page_config(page_title="EmpireGPT", layout="wide")
 st.title("🏠 EmpireGPT - Investor Dashboard")
 
 address = st.text_input("Enter property address:", "21309 W Memorial Dr, Porter, TX 77365")
-backend_url = "http://localhost:8000/api/underwrite"
+backend_url = "https://empiregpt.onrender.com/api/underwrite"
+
 
 if st.button("Run Underwriter"):
     with st.spinner("Analyzing..."):
