@@ -5,6 +5,3 @@ enableCORS = false
 
 [theme]
 base = "auto"
-
-[layout]
-wide = true
